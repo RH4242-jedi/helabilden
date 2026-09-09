@@ -35,7 +35,7 @@ export default function Home() {
               Minska dramat. <br /> Förstå systemen. <br /> Se datan.
             </h1>
             <p className="max-w-2xl text-lg leading-8 text-slate-600 md:text-xl">
-              Avpolarisera.se är en faktadriven ingång till svensk politik. Här ska känsliga frågor förklaras med historik,
+              helabilden.se är en faktadriven ingång till svensk politik. Här ska känsliga frågor förklaras med historik,
               voteringsdata och tydliga målkonflikter i stället för klicklogik och moralisk teater.
             </p>
           </div>
@@ -74,7 +74,7 @@ export default function Home() {
         <SectionHeading
           eyebrow="Huvudfunktioner"
           title="Byggt för att sakta ner reaktionen och höja förståelsen"
-          description="MVP:n fokuserar på två kärnformat: ett index som visar faktisk samsyn och en interaktiv modell för att förstå målkonflikter utan att demonisera någon sida."
+          description="MVP:n fokuserar på samsyn i Riksdagen, målkonflikter med flera perspektiv och en öppen metodstandard för källor och osäkerhet."
         />
         <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {featureCards.map((card) => (

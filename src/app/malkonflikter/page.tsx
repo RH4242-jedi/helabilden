@@ -7,7 +7,7 @@ export default function MalkonflikterPage() {
       <SectionHeading
         eyebrow="Målkonflikter"
         title="Gör svåra prioriteringar begripliga"
-        description="När användaren drar i reglaget skiftar tyngdpunkten mellan två legitima mål. Steelman-läget hjälper till att visa den starkaste versionen av båda sidor i stället för att belöna karikatyrer."
+        description="Varje fråga visas i tre lager: förankrade fakta, legitima perspektiv och vanliga felbilder. Två perspektiv ger vågskål. Tre eller fler ger flikar — utan höger/vänster-låsning."
       />
       <div className="mt-10">
         <TradeoffExplorer />

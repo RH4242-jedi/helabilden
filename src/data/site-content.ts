@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { BarChart3, Scale, ShieldCheck } from "lucide-react";
+import { BarChart3, BookOpenCheck, Scale } from "lucide-react";
 
 export type FeatureCard = {
   title: string;
@@ -19,15 +19,15 @@ export const featureCards: FeatureCard[] = [
   {
     title: "Målkonflikter",
     description:
-      "Utforska varför svåra frågor sällan har perfekta lösningar och hur olika prioriteringar ger olika konsekvenser.",
+      "Utforska frågor med två eller flera legitima perspektiv, utan att tvinga in allt i höger/vänster.",
     href: "/malkonflikter",
     icon: Scale,
   },
   {
-    title: "Faktaspår",
+    title: "Metod",
     description:
-      "Byggt för att senare bära källor, historik och sammanhang på ett sätt som står emot missinformation och klicklogik.",
-    href: "#principer",
-    icon: ShieldCheck,
+      "Läs hur vi skiljer fakta från tolkning, hur evidensnivåer fungerar och hur osäkerhet redovisas.",
+    href: "/metod",
+    icon: BookOpenCheck,
   },
 ];
